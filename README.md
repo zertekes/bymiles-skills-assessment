@@ -1,6 +1,7 @@
 ![By Miles Skills Assessments](https://images.bymiles.co.uk/images-by-miles/by-miles-logo-clear-350x160.png)
 
-A collection of skills assessments we may use during the hiring process</p>
+# By Miles Skills Assessment
+A collection of skills assessments and resources we may use during the hiring process
 
 ## QA
 

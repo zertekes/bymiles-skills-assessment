@@ -1,0 +1,12 @@
+.terraform
+*.tfstate
+*tfstate.backup
+!terraform-backend/terraform.tfstate
+!terraform-backend-bymiles-test/terraform.tfstate
+!terraform-backend-bymiles-prod/terraform.tfstate
+!terraform-backend-bymiles-ops/terraform.tfstate
+scratch.txt
+
+.DS_Store
+
+/.aws/config

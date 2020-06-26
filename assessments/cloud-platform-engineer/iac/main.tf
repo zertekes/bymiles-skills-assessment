@@ -17,3 +17,12 @@ resource "aws_security_group" "bymiles-security-group" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
+
+resource "aws_security_group_rule" "ingress" {
+  security_group_id = "${aws_security_group.bymiles-security-group.id}"
+  type              = "ingress"
+  protocol          = "TCP"
+  from_port         = 80
+  to_port           = 80
+  cidr_blocks       = ["0.0.0.0/0"]
+}

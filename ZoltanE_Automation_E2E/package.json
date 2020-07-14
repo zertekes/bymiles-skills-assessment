@@ -1,0 +1,28 @@
+{
+  "name": "bymiles",
+  "version": "1.0.0",
+  "description": "skill assesments",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./node_modules/.bin/wdio ./wdio.conf.js"
+  },
+  "author": "Zoltan Ertekes",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/dot-reporter": "^6.1.23",
+    "@wdio/local-runner": "^6.2.0",
+    "@wdio/mocha-framework": "^6.2.0",
+    "@wdio/selenium-standalone-service": "^6.1.14",
+    "@wdio/spec-reporter": "^6.1.23",
+    "@wdio/sync": "^6.2.0",
+    "chai": "^4.2.0",
+    "chai-webdriverio": "^1.0.0",
+    "webdriverio": "^6.2.0"
+  },
+  "dependencies": {
+    "@wdio/cli": "^6.2.0"
+  }
+}
